@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+
+# Local logs
+*.log
+
+# Deployment config (generated)
+frontend/src/contract-config.json
+
+# Frontend build
+frontend/dist/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
