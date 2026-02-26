@@ -84,8 +84,15 @@ npx hardhat node
 
 ### 2. Deploy & Auto-Register
 In a new terminal, deploy the contract. This script also pre-registers all 10 simulator accounts:
-```bash
+
+**Windows (PowerShell):**
+```powershell
 .\node_modules\.bin\hardhat.ps1 run scripts/deploy.js --network localhost
+```
+
+**WSL / Linux / macOS (Bash):**
+```bash
+npx hardhat run scripts/deploy.js --network localhost
 ```
 
 ### 3. Launch Frontend
